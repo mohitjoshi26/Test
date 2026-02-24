@@ -10,7 +10,7 @@ public class AllAccountTriggerHandler {
                 }
             }
             if(acc.ShippingCity==null)
-                acc.ShippingCity=acc.BillingCity;
+                //acc.ShippingCity=acc.BillingCity;
             if(acc.ShippingState==null)
                 acc.ShippingState=acc.BillingState;
             if(acc.ShippingCountry==null)
